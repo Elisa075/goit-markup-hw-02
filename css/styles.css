@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a.menu-link {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+header nav ul li a.menu-link:hover, 
+header nav ul li a.menu-link:focus {
+    color: #404bbf;
+}
+
+header .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+header .logo .logo-span {
+    color: #2e2f42;
+}
+
+#portfolio {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-title {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.portfolio-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+.contact-address {
+    font-style: normal;
+}
+
+.contact-address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-address ul li a.contact-link {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-address ul li a.contact-link:hover, 
+.contact-address ul li a.contact-link:focus {
+    color: #404bbf;
+}
+
+.portfolio-section {
+    background-color: #2e2f42;
+}
+
+.portfolio-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.button-class {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-class:hover, 
+.button-class:focus {
+    background-color: #404BBF;
+}
