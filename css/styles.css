@@ -1,21 +1,55 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    background-color: #FFFFFF;
 }
 
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     padding: 20px;
-    background-color: #f8f9fa; /* Adjust based on the design */
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a.menu-link {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+header nav ul li a.menu-link:hover,
+header nav ul li a.menu-link:focus {
+    color: #404bbf;
+}
+
+header .logo {
+    font-family: 'Raleway', sans-serif;
 }
 
 .nav-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -24,7 +58,7 @@ body {
     color: #4d5ae5;
 }
 
-.nav-logo span {
+header .logo .logo-span {
     color: #2e2f42;
 }
 
@@ -73,6 +107,7 @@ address {
     font-style: normal;
 }
 
+
 #portfolio {
     padding: 50px 0;
     text-align: center;
@@ -86,12 +121,15 @@ address {
 }
 
 .portfolio-list {
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 20px;
 }
 
 .portfolio-item {
