@@ -1,61 +1,74 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF;
-}
+            font-family: 'Roboto', sans-serif;
+            color: #333; /* Replace with the main text color from design */
+        }
 
-h1, h2 {
-    font-family: 'Raleway', sans-serif;
-}
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f9fa; /* Adjust based on the design */
+        }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-}
+        .nav-logo {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
+        }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
+        .nav-logo span {
+            color: #2e2f42;
+        }
 
-header nav ul li {
-    margin: 0 10px;
-}
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
 
-header nav ul li a.menu-link {
-    text-decoration: none;
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+        .nav-item {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
 
-header nav ul li a.menu-link:hover, 
-header nav ul li a.menu-link:focus {
-    color: #404bbf;
-}
+        .nav-item:hover,
+        .nav-item:focus {
+            color: #404bbf;
+        }
 
-header .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
+        .address-list {
+            list-style: none;
+            padding: 0;
+        }
 
-header .logo .logo-span {
-    color: #2e2f42;
-}
+        .address-item {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .address-item:hover,
+        .address-item:focus {
+            color: #404bbf;
+        }
+
+        address {
+            font-style: normal;
+        }
 
 #portfolio {
     padding: 50px 0;
