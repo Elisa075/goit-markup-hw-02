@@ -4,19 +4,28 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
+    box-sizing: border-box;
 }
+
 
 h1, h2 {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 
-.header {
+header {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
 }
+
 
 header nav ul {
     list-style: none;
@@ -37,76 +46,32 @@ header nav ul li a.menu-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #ffffff
 }
 
-header nav ul li a.menu-link:hover,
+header nav ul li a.menu-link:hover, 
 header nav ul li a.menu-link:focus {
     color: #404bbf;
 }
 
 header .logo {
+nav-logo {
+    color: #4d5ae5; 
     font-family: 'Raleway', sans-serif;
-}
-
-.nav-logo {
-    font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    
+}
 }
 
 header .logo .logo-span {
+.nav-span {
     color: #2e2f42;
 }
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
 }
-
-.nav-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.nav-item:hover,
-.nav-item:focus {
-    color: #404bbf;
-}
-
-.address-list {
-    list-style: none;
-    padding: 0;
-}
-
-.address-item {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.address-item:hover,
-.address-item:focus {
-    color: #404bbf;
-}
-
-address {
-    font-style: normal;
-}
-
 
 #portfolio {
     padding: 50px 0;
@@ -121,15 +86,17 @@ address {
 }
 
 .portfolio-list {
-    list-style: none;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+.nav-list {
     list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
     padding: 0;
     margin: 0;
-    gap: 20px;
+}
 }
 
 .portfolio-item {
@@ -154,6 +121,13 @@ address {
     font-size: 1.5em;
     color: #333;
 }
+.nav-item {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .portfolio-item p {
     font-size: 1em;
@@ -163,42 +137,73 @@ address {
 button, a {
     cursor: pointer;
 }
+.nav-item:hover,
+.nav-item:focus {
+    color: #404bbf;
+}
 
 .contact-address {
     font-style: normal;
 }
 
 .contact-address ul {
+.adress-list {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+}
 }
 
 .contact-address ul li a.contact-link {
     font-weight: 400;
+.address-item {
+    text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+}
+
+.contact-address ul li a.contact-link {
+    font-weight: 400;
+.address-item {
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+}
 
 .contact-address ul li a.contact-link:hover, 
 .contact-address ul li a.contact-link:focus {
+.address-item:hover,
+.address-item:focus {
     color: #404bbf;
 }
+}
 
-.portfolio-section {
+.portfolio-section 
+/* First Section Styles */
+
+.first-section {
     background-color: #2e2f42;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .portfolio-title {
+.main-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin: 0 0 20px 0;
+}
 }
 
-.button-class {
+.button-class 
+.main-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -206,10 +211,34 @@ button, a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    padding: 10px 20px;
+    border: none;
     cursor: pointer;
 }
 
 .button-class:hover, 
-.button-class:focus {
+.button-class:focus 
+.main-button:hover,
+.main-button:focus {
     background-color: #404BBF;
+}
+
+/* Second Section Styles */
+.second-section {
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
