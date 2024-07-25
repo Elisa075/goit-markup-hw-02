@@ -1,16 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    margin: 0;
-    padding: 0;
     background-color: #FFFFFF;
-    box-sizing: border-box;
+    
 }
 
 
 h1, h2 {
     font-family: "Raleway", sans-serif;
-    box-sizing: border-box;
 }
 
 
@@ -19,19 +16,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    
 }
 
 
 header nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
-    display: flex;
     justify-content: center;
 }
 
@@ -74,7 +66,6 @@ header .logo .logo-span {
 }
 
 #portfolio {
-    padding: 50px 0;
     text-align: center;
     background-color: #fff;
 }
@@ -92,10 +83,6 @@ header .logo .logo-span {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-    margin: 0;
 }
 }
 
@@ -103,9 +90,6 @@ header .logo .logo-span {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 15px;
-    padding: 20px;
-    width: 280px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -150,7 +134,7 @@ button, a {
 .adress-list {
     list-style: none;
     margin: 0;
-    padding: 0;
+
 }
 }
 
@@ -187,7 +171,6 @@ button, a {
 
 .first-section {
     background-color: #2e2f42;
-    padding: 60px 20px;
     text-align: center;
 }
 
@@ -211,7 +194,6 @@ button, a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
