@@ -101,6 +101,14 @@ body {
    background-color: #F4F4FD;
 }
 
+
+.team-member {
+    background-color: #FFFFFF; 
+    padding: 15px; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}
+
 .third-section .section-title {
     font-size: 36px;
     line-height: 1.11;
