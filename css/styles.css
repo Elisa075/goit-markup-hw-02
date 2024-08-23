@@ -4,45 +4,52 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Stil pentru logo în header */
 .nav-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+    font-family: "Raleway", sans-serif; /* Familia de fonturi */
+    font-weight: 700; /* Grosimea fontului */
+    font-size: 18px; /* Dimensiunea fontului */
+    line-height: 1.17; /* Distanța dintre liniile rândurilor de text */
+    letter-spacing: 0.03em; /* Spațiul dintre litere */
+    text-transform: uppercase; /* Transformarea textului în majuscule */
+    color: #4d5ae5; /* Culoarea textului */
 }
 
+/* Stil pentru span din logo */
 .nav-span {
-    color: #2e2f42;
+    color: #2e2f42; /* Culoarea textului */
 }
 
-.nav-item {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+/* Stil pentru primul element al listei de meniu */
+.nav-list .nav-item:first-child {
+    font-weight: 500; /* Grosimea fontului */
+    line-height: 1.5; /* Distanța dintre liniile rândurilor de text */
+    letter-spacing: 0.02em; /* Spațiul dintre litere */
+    color: #2e2f42; /* Culoarea textului */
 }
 
+/* Schimbarea culorii la hover și focalizare pentru link-urile din meniu */
 .nav-item:hover,
 .nav-item:focus {
-    color: #404bbf;
+    color: #404bbf; /* Culoarea textului la hover și focalizare */
 }
 
+/* Stil pentru address */
 .contact-address {
-    font-style: normal;
+    font-style: normal; /* Stil normal, fără italice */
 }
 
-.address-item {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+/* Stil pentru primul element al listei din address */
+.address-list .address-item:first-child {
+    line-height: 1.5; /* Distanța dintre liniile rândurilor de text */
+    letter-spacing: 0.02em; /* Spațiul dintre litere */
+    color: #434455; /* Culoarea textului */
 }
 
+/* Schimbarea culorii la hover și focalizare pentru link-urile din address */
 .address-item:hover,
 .address-item:focus {
-    color: #404bbf;
+    color: #404bbf; /* Culoarea textului la hover și focalizare */
 }
 
 .first-section {
