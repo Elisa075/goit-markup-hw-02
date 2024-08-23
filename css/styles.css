@@ -6,13 +6,8 @@ body {
 
 /* Stil pentru logo în header */
 .nav-logo {
-    font-family: "Raleway", sans-serif; /* Familia de fonturi */
-    font-weight: 700; /* Grosimea fontului */
-    font-size: 18px; /* Dimensiunea fontului */
-    line-height: 1.17; /* Distanța dintre liniile rândurilor de text */
-    letter-spacing: 0.03em; /* Spațiul dintre litere */
-    text-transform: uppercase; /* Transformarea textului în majuscule */
-    color: #4d5ae5; /* Culoarea textului */
+    
+    
 }
 
 /* Stil pentru span din logo */
