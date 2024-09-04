@@ -56,6 +56,10 @@ body {
     color: #404bbf; 
 }
 
+.contact-address {
+    font-style: normal; 
+}
+
 .first-section {
     background-color: #2e2f42;
 }
